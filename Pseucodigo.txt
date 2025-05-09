@@ -1,0 +1,11 @@
+Algoritmo recomendarPeliculas
+Entrada: usuarioID, estadoAnimo, generoPreferido
+Salida: listaPeliculasRecomendadas
+
+1. Obtener películas que el usuario ya ha visto
+2. Filtrar películas del géneroPreferido y estadoAnimo que NO haya visto
+3. Buscar otros usuarios con gustos similares (por géneros o emociones)
+4. Recomendar películas vistas por esos usuarios y no vistas por el usuario actual
+5. Ordenar por popularidad y afinidad
+6. Mostrar las top 5 películas
+FinAlgoritmo
