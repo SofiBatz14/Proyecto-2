@@ -1,0 +1,34 @@
+
+--- Vista Previa de la Base de Datos Neo4j ---
+
+NODOS:
+1. Usuario
+   - id: u1
+   - nombre: Carlos
+
+2. Géneros
+   - Acción
+   - Comedia
+   - Drama
+
+3. Estados de Ánimo
+   - Feliz
+   - Triste
+   - Estresado
+
+4. Películas
+   - Rápidos y Furiosos (p1)
+   - Intensamente (p2)
+   - La La Land (p3)
+
+RELACIONES:
+- Carlos LE_GUSTA Comedia
+- Carlos TIENE_ESTADO_ANIMO Feliz
+- Carlos VIO Rápidos y Furiosos
+
+- Rápidos y Furiosos PERTENECE_A Acción
+- Intensamente PERTENECE_A Comedia
+- La La Land PERTENECE_A Drama
+
+- Intensamente ES_APROPIADA_PARA Feliz
+- La La Land ES_APROPIADA_PARA Triste
